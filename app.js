@@ -19,7 +19,7 @@ app.use(cors({
 app.use(cors(""));
 const io = socketIO(server,{
   cors: {
-      origin: 'http://localhost:3000',
+      origin: 'https://recipe-rover10.netlify.app',
       methods: ['GET', 'POST'],
   },
 });
